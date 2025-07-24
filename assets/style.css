@@ -1,0 +1,82 @@
+.dynamic-test-box {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  font-family: 'Tahoma', sans-serif;
+}
+.dynamic-test-box h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.test-image {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 150px;
+  border-radius: 8px;
+}
+.test-description {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.test-duration {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 30px;
+}
+.test-form {
+  margin-top: 20px;
+}
+/* Admin Table Styles */
+.wp-list-table.widefat {
+  font-family: Tahoma, sans-serif;
+  font-size: 15px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.wp-list-table th, .wp-list-table td {
+  padding: 8px 10px;
+  text-align: center;
+}
+.wp-list-table th {
+  background: #f1f1f1;
+  font-weight: bold;
+}
+.wp-list-table tr:nth-child(even) {
+  background: #fafbfc;
+}
+.wp-list-table input[type="text"],
+.wp-list-table input[type="number"],
+.wp-list-table textarea {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 4px 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.wp-list-table input[type="checkbox"] {
+  transform: scale(1.2);
+}
+.dtd-exam-btn {
+  display: inline-block;
+  margin: 10px 0 0 0;
+  padding: 8px 20px;
+  background: #0073aa;
+  color: #fff !important;
+  border-radius: 6px;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.dtd-exam-btn:hover {
+  background: #005177;
+  color: #fff !important;
+}
